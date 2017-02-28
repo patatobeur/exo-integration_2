@@ -1,6 +1,6 @@
 *{
-  margin: 0 ;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 header{
   background-image: url(background.jpg);
@@ -13,6 +13,7 @@ header{
   border-bottom:  1px solid red;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 #menu li{
   display: inline;
@@ -22,4 +23,9 @@ header{
 footer{
   background-color: grey;
   width: 100%;
+}
+
+.container-fluid {
+ width: 100%;
+ padding: 0;
 }
