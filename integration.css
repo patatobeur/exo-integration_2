@@ -1,0 +1,13 @@
+header{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: 0px -165px;
+  height: 510px;
+}
+#menu{
+  background-color: rgba(0, 0, 0,0.6);
+  border-bottom:  1px solid red;
+}
+#menu li{
+  display: inline;
+}
