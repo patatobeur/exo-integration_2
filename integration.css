@@ -1,13 +1,25 @@
+*{
+  margin: 0 ;
+  padding: 0;
+}
 header{
   background-image: url(background.jpg);
   background-size: cover;
-  background-position: 0px -165px;
-  height: 510px;
+  background-position: 0px -185px;
+  height: 570px;
 }
 #menu{
   background-color: rgba(0, 0, 0,0.6);
   border-bottom:  1px solid red;
+  position: fixed;
+  width: 100%;
 }
 #menu li{
   display: inline;
+  color: white;
+}
+
+footer{
+  background-color: grey;
+  width: 100%;
 }
